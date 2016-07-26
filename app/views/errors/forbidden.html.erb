@@ -1,0 +1,13 @@
+<div class="alert-danger">
+    <h1>403 FORBIDDEN</h1>
+    <p>
+      <%=
+        case @exception
+        when ApplicationController::IpAddressRejected
+         " Your Ip Address (#{request.ip}) is unaccessable!!"
+        else
+         " IT'S FORBIDDEN !!!"
+        end
+       %>
+    </p>
+</div>

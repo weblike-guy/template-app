@@ -1,0 +1,5 @@
+SECRET_KEY_BASE=your_generated_secret
+
+TOSHIAPP_DATABASE_USER=toshiapp
+
+TOSHIAPP_DATABASE_PASSWORD=toshi1219
